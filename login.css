@@ -1,0 +1,50 @@
+#register {
+    display: none;
+}
+
+#login {
+    display: block;
+}
+
+* {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h3 {
+    margin: 0;
+}
+
+#loginForm, #registerForm {
+    border-style: solid;
+    border-width: 1px;
+    padding: 15px;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+    width: 80px;
+    text-align: left;
+}
+
+p {
+    text-align: center;
+}
+
+#errorMsg {
+    background-color: yellow;
+    color: red;
+    font-weight: bold;
+    width: max-content;
+    margin: auto;
+}
+
+a {
+    font-weight: bold;
+}

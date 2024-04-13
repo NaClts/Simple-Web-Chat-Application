@@ -1,0 +1,122 @@
+* {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+#rootFlex {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+}
+
+#user {
+    display: none;
+}
+
+#chatboxBorder {
+    text-align: center;
+    background-color: lightblue;
+    margin: auto;
+    border-radius: 15px;
+    padding: 10px;
+    width: 90%;
+    height: 100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    max-width: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#logoutForm {
+    text-align: right;
+    margin-bottom: 5px;
+}
+
+#chatbox {
+    background-color: white;
+    border-radius: 5px;
+    border-color: rgb(255, 132, 132);
+    border-style: solid;
+    border-width: 1px;
+    padding: 3px;
+    margin: 0px;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.chatBubble {
+    background-color: lightgrey;
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px 10px 10px 0px;
+    width: max-content;
+    max-width: 80%;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: auto;
+}
+
+.messageHeader {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sender {
+    margin-right: 15px;
+    min-width: 0;
+    text-align: left;
+    font-weight: bold;
+    overflow-wrap: break-word;
+}
+
+.sendingMessage {
+    text-align: left;
+    overflow-wrap: break-word;
+}
+
+.me {
+    background-color: lightgreen;
+    border-color: green;
+    border-radius: 10px 10px 0px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    margin-left: auto; 
+}
+
+#inputFieldBorder {
+    background-color: rgba(0, 128, 170, 0.404);
+    border-radius: 5px;
+    border-color: rgba(0, 84, 112, 0.377);
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    margin: 0px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+#inputField {
+    resize: none;
+    width: 100%;
+    margin-right: 5px;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+    margin-left: 8px;
+    margin-right: 8px;
+}
